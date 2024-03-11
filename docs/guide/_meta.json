@@ -1,1 +1,12 @@
-["index"]
+[
+    "getting-started",
+    "install",
+    "basic",
+    "advanced",
+    "intro",
+    {
+        "type": "dir",
+        "name": "basic",
+        "label": "标准组件"
+    }
+]
