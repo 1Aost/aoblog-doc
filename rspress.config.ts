@@ -4,6 +4,7 @@ import { pluginPreview } from '@rspress/plugin-preview';
 import { pluginApiDocgen } from "@rspress/plugin-api-docgen"
 
 export default defineConfig({
+  base: "/aoblog-doc",
   root: path.join(__dirname, 'docs'),
   title: 'Aoblog-doc',
   description: 'Rspack-based Static Site Generator',
