@@ -23,6 +23,8 @@ export default defineConfig({
     pluginApiDocgen({
       entries: {
         ActionRender: './src/api/Display/ActionRenderAPI.ts',
+        FilterSelect: './src/api/Header/FilterSelectAPI.ts',
+        HeaderGroup: './src/api/Header/HeaderGroupAPI.ts',
       },
       apiParseTool: 'react-docgen-typescript',
     }),
