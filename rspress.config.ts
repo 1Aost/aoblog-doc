@@ -4,6 +4,7 @@ import { pluginPreview } from '@rspress/plugin-preview';
 import { pluginApiDocgen } from "@rspress/plugin-api-docgen"
 
 export default defineConfig({
+  base: "/aoblog-doc",
   root: path.join(__dirname, 'docs'),
   title: 'Aoblog-doc',
   description: 'Rspack-based Static Site Generator',
@@ -22,6 +23,8 @@ export default defineConfig({
     pluginApiDocgen({
       entries: {
         ActionRender: './src/api/Display/ActionRenderAPI.ts',
+        FilterSelect: './src/api/Header/FilterSelectAPI.ts',
+        HeaderGroup: './src/api/Header/HeaderGroupAPI.ts',
       },
       apiParseTool: 'react-docgen-typescript',
     }),
