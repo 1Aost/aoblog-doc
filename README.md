@@ -15,7 +15,3 @@ Build the document site for production:
 ```
 pnpm build
 ```
-Preview the production build locally:
-```
-pnpm serve
-```
